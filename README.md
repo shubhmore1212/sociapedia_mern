@@ -6,7 +6,7 @@
 
 A social media application built with Node.js and React.js, offering features like post creation, post liking, friend management, profile viewing, and mobile-responsive design with dark and light mode support.
 
-![Social Media Application](./client/public/assets/mern-sociapedia-2023-05-08-213100_EEUnVrzJ.mp4)
+![Social Media Application](./client/public/assets/Screenshot%20from%202023-05-08%2021-10-03.png)
 
 ## Table of Contents
 
