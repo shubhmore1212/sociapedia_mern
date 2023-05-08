@@ -30,7 +30,8 @@ A social media application built with Node.js and React.js, offering features li
 
 ```bash
 git clone https://github.com/username/repo.git
-cd repo```
+cd repo
+```
 
 ## Contributing
 
