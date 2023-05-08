@@ -29,6 +29,8 @@ A social media application built with Node.js and React.js, offering features li
 git clone https://github.com/username/repo.git
 cd repo
 
+###
+
 <a name="installation">Installation</a>
 npm install
 # or
