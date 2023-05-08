@@ -6,34 +6,66 @@
 
 A social media application built with Node.js and React.js, offering features like post creation, post liking, friend management, profile viewing, and mobile-responsive design with dark and light mode support.
 
-![Social Media Application Screenshot](./screenshots/screenshot.png)
+![Social Media Application](./client/public/assets/mern-sociapedia-2023-05-08-213100_EEUnVrzJ.mp4)
 
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
 - [Features](#features)
 - [Contributing](#contributing)
-- [License](#license)
+
+### Clone the repository
+
+```bash
+git clone https://github.com/shubhmore1212/sociapedia_mern.git
+cd sociapedia
+```
 
 ## Installation
+
+For FrontEnd:
+
+```bash
+cd client
+npm install
+npm start
+```
+
+For BackEnd:
+
+```bash
+cd server
+# create a .env file containing
+# MONGO_URL (see youtube video for reference https://www.youtube.com/watch?v=K8YELRmUb5o&t=920s)
+# JWT_SECRET (any string)
+# PORT=3001
+nodemon index.js
+
+#Application is ready to explore
+```
 
 ### Prerequisites
 
 - Node.js (v14 or higher)
 - npm or yarn package manager
 
-
 ## Features
 
-### Clone the repository
-
-```bash
-git clone https://github.com/username/repo.git
-cd repo
-```
+- User registration and authentication
+- Post creation with image or content upload
+- Like and comment on posts
+- Friend management: add friends and remove friends
+- View other users' profiles
+- Mobile-responsive design
+- Dark and light mode support
 
 ## Contributing
 
+Contributions are welcome! Follow these steps to contribute:
 
-
+- Fork the repository.
+- Create a new branch: git checkout -b feature/your-feature-name.
+- Commit your changes: git commit -am 'Add new feature'.
+- Push the branch: git push origin feature/your-feature-name.
+- Submit a pull request.
+- Please ensure that your code adheres to the existing code style.
