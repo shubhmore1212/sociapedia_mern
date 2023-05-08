@@ -23,6 +23,9 @@ A social media application built with Node.js and React.js, offering features li
 - Node.js (v14 or higher)
 - npm or yarn package manager
 
+
+## Features
+
 ### Clone the repository
 
 ```bash
@@ -30,5 +33,4 @@ git clone https://github.com/username/repo.git
 cd repo
 
 
-## Features
 
